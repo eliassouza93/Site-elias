@@ -228,7 +228,7 @@ input{
         font-weight: bold;
         text-align: left;
         background-image: linear-gradient(to top, rgba(30, 32, 116, 0.966), rgb(0, 0, 0));
-        width: 99%;
+        width: 100%;
        
     }
     h1{
@@ -245,7 +245,7 @@ input{
         
     }
     .cabeçalhoPrincipal-nav-link{
-        font-size: 15px;
+        font-size: 14px;
         width: 100%;
     }
     .sobreMim>p{
