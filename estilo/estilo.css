@@ -250,9 +250,10 @@ input{
     }
     .sobreMim>p{
         margin-top: 1px;
-        margin-left: 90px;
+        margin-left: 40px;
         color: white;
         width: 100%;
+        font-size: 15px;
     }
     .sobremim-imagem{
       display: none;
