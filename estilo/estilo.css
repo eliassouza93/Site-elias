@@ -1,0 +1,277 @@
+header{
+    background-image: linear-gradient(to top, rgba(30, 32, 116, 0.966), rgb(0, 0, 0));
+    color: white;
+    height: 180px;
+    width: 100%;
+}
+body{
+    background-image: linear-gradient(to top, rgba(156, 157, 201, 0.966), rgba(0, 0, 0, 0.904));
+    color: white;
+    font-family: courier,arial,helvetica;
+}
+
+/*cabeçalho*/
+
+.cabeçalhoPrincipal-nav{
+    display: flex;
+    justify-content: space-evenly;
+   
+
+}
+.redesPai{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.redes__filha{
+    border: 1px solid rgb(255, 249, 249);
+    margin: 20px;
+    width: 8%;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: rgb(13, 14, 56);
+    color: white;
+    
+}
+.redes__filha:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.cabeçalhoPrincipal-nav-link{
+    border: 1px solid white;
+    width: 10%;
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    margin-top: 80px;
+    text-align: center;
+    padding: 4px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 4px;
+    font-size: 19px;
+    box-shadow: 0px 1px 8px rgba(255, 255, 255, 0.781);
+    text-transform: uppercase;
+
+}
+.cabeçalhoPrincipal-nav-link:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+/*cabeçalho*/
+#elias{
+    width: 30%;
+}
+main{
+   color: black;
+    margin-top: -20px;
+}
+/*sobre mim*/
+.tituloMim{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 29px;
+    
+}
+p{
+    font-size: 20px;
+    margin-top: 100px;
+    margin-left:40px ;
+    margin-right:40px;
+}
+
+.sobremim-imagem{
+    width: 15%;
+    border-radius: 100% ;
+    margin: 10px;
+    display: flex;
+    
+}
+.sobreMim{
+    display: flex;
+    margin-top: 10px;
+    margin-right: 20px;
+    color: white;
+    
+   
+}
+/*sobre mim*/
+h1{
+    text-align: center;
+    font-size:27px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+    border: 1px solid black;
+    width: 52%;
+    margin: 0 auto;
+    border-radius: 4px;
+   margin-top: 28px;
+   background-color: rgb(10, 10, 66);
+   color: white;
+  
+    
+}
+.hobitPai{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  align-items: center;
+
+
+
+}
+.hobbies__meus{
+    background-image: linear-gradient(to top, rgba(30, 32, 116, 0.966), rgb(0, 0, 0));
+    width: 50%;
+    border: 1px solid black;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    box-shadow: 0px 1px 8px rgba(255, 255, 255, 0.781);
+    margin: 5px;
+    padding: 20px;
+    font-size: 21px;
+}
+input{
+    background-color: white;
+
+}
+button{
+    background-color: white;
+}
+
+.formaçaoPai{
+    display: flex;
+    display: grid;
+}
+.formaçaoPai__img{
+    width: 52%;
+    margin: 0px auto;
+    border: 10px;
+    border: 4px solid black;
+    border-radius: 4px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.623);
+    margin-bottom: 30px;
+    border-top: 20px;
+
+}
+.endPart{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    align-items: center;
+   
+  
+}
+.inputPai,#botao{
+    background-image: linear-gradient(to top, rgba(30, 32, 116, 0.966), rgb(0, 0, 0));
+    width: 100%;
+    border: 1px solid black;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    box-shadow: 0px 1px 8px rgba(255, 255, 255, 0.781);
+    margin: 5px;
+    padding: 20px;
+    font-size: 21px;
+    margin-bottom: 20px;
+
+}
+input{
+    height: 5px;
+}
+#nome, #email{
+    width: 90%;
+}
+
+#nome1, #email1{
+    border: 1px solid black;
+    width: 200px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+ 
+}
+
+#texto{
+    width: 70%;
+    margin-left: 100px;
+    font-size: 20px;
+}
+#botao{
+    width: 95%;
+}
+#botao:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+#rodape {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+@media screen and (max-width: 850px) {
+    body, html{
+        font-weight: bold;
+        text-align: left;
+        background-image: linear-gradient(to top, rgba(30, 32, 116, 0.966), rgb(0, 0, 0));
+        width: 98%;
+       
+    }
+    h1{
+        text-align: start;
+        color: white;
+        text-align: center;
+    }
+    #elias{
+        display: none;
+    }
+    .cabeçalhoPrincipal-nav{
+        display: flex;
+        margin-top: -30px;
+        
+    }
+    .cabeçalhoPrincipal-nav-link{
+        font-size: 15px;
+        width: 100%;
+    }
+    .sobreMim>p{
+        margin-top: 1px;
+        margin-left: 6px;
+        color: white;
+        width: 100%;
+    }
+    .sobremim-imagem{
+      display: none;
+    }
+    .formaçaoPai__img{
+        width: 100%;
+    }
+    .hobbies__meus{
+        width: 100%;
+    }
+    .redes__filha{
+        color: white;
+        border: 1px solid white;
+        width: 30%;
+        border-radius: 4px;
+    }
+    .endPart{
+        display: none;
+    }
+}
+
+
